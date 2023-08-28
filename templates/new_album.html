@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Library - New Album</title>
+    <style type="text/css">
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #1a237e, #1565c0); /* Slightly different shade of gradient for uniqueness */
+            margin: 0;
+            padding: 0 20%;
+            color: #f1f1f1; 
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            color: #c5cae9; /* Light purple color for uniqueness */
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #c5cae9;
+            padding-bottom: 20px;
+        }
+
+        .t-errors {
+            color: rgb(255, 234, 167);
+            background-color: rgba(255, 0, 0, 0.7);
+            border-radius: 8px;
+            padding: 1px 10px; /* Simplified padding */
+            margin-bottom: 20px;
+            width: 280px;
+            max-width: 100%; /* Ensure it fits smaller screens */
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.2em; /* Increased font size */
+        }
+
+        .title-card, .select-box, .select-date, .fixed_artist {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #c5cae9;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #f1f1f1;
+            font-size: 1.1em; /* Increased font size */
+        }
+
+        .title-card, .fixed_artist {
+            width: 97.5%;
+        }
+
+        .select-box, .select-date {
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 320 512" width="20" xmlns="http://www.w3.org/2000/svg"><path fill="%23c5cae9" d="M31.3 192l121.5 121.5c4.7 4.7 12.3 4.7 17 0L291.3 192c4.7-4.7 4.7-12.3 0-17l-22.6-22.6c-4.7-4.7-12.3-4.7-17 0L160 246.1 70.3 151.5c-4.7-4.7-12.3-4.7-17 0L30.3 174c-4.8 4.7-4.8 12.3-.1 17.9z"></path></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding-right: 30px;
+            font-size: 1.1em; /* Increased font size */
+        }
+
+        input[type="submit"] {
+            background-color: #c5cae9; 
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #1a237e; 
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-size: 1.1em; /* Increased font size */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #7986cb; 
+        }
+
+        .top-left-buttons {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: rgb(17, 26, 37);
+            font-family:'Roboto', sans-serif;
+            color: #f1f1f1;
+            border: none;
+            padding: 10px 15px;
+            margin-right: 5px; 
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgb(58, 88, 126);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-left-buttons">
+        <a href="/" class="button">Homepage</a>
+        <a href="/artists" class="button">All Artists</a>
+        <a href="/albums" class="button">All Albums</a>
+    </div>
+    <h1>Add New Album</h1>
+    {% if errors %}
+    <div class="t-errors">
+        {% for error in errors %}
+            <p>! {{error}} !</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div>
+        <form action="/albums" method="POST">
+            <input class="title-card" type="text" name="title" placeholder="Album Title" autocomplete="off">
+            <select class="select-date" name="release_year">
+                <option value=0>Select A Release Year</option>
+                {% for number in range(1945, 2024) %}
+                    <option value="{{number}}">{{number}}</option>
+                {% endfor %}
+            </select>
+            {% if artists|length > 1 %}
+            <select class="select-box" name="artist">
+                <option value=0>Select An Artist</option>
+                {% for artist in artists %}
+                    <option value="{{artist.id}}">{{artist.name}}</option>
+                {% endfor %}
+            </select>
+            <input type="hidden" name="is_fixed" value=0>
+            {% else %}
+            <p class="fixed_artist">{{artists[0].name}}</p>
+            <input type="hidden" name="artist" value="{{artists[0].id}}">
+            <input type="hidden" name="is_fixed" value=1>
+            {% endif %}
+
+            <input type="submit" value="Add Album">
+
+        </form>
+    </div>
+</body>
+</html>

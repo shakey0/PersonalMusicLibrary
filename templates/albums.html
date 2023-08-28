@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Library - Albums</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #5c1c4e, #006064); /* Deep purple to dark turquoise */
+            margin: 0;
+            padding: 0 10%;
+            color: #f1f1f1;  /* General text color */
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;  /* Increased size */
+            color: #e0e0e0;  
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #e0e0e0;  /* Increased border thickness */
+            padding-bottom: 20px;
+        }
+
+        .album-container {
+            background-color: rgba(0, 0, 0, 0.2);  /* Darker card background */
+            border-radius: 15px;  /* Rounded edges */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  /* Enhanced shadow */
+            margin-bottom: 30px;
+            padding: 25px;  /* Increased padding */
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .album-card a,
+        .artist-card a,
+        .release_year-card {
+            display: block;
+            margin-bottom: 12px;  /* Increased margin */
+        }
+
+        .album-card a {
+            font-size: 1.4em;  /* Increased size */
+            font-weight: 800;  /* Bolder */
+            color: #ffb845;  /* Orange-ish */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .album-card a:hover {
+            color: #edff29;  /* Gold on hover */
+        }
+
+        .artist-card a {
+            font-size: 1.2em;  /* Increased size */
+            font-weight: 700;  
+            color: #ffffff;  /* Greyish color */
+            text-decoration: none;
+            transition: color 0.3s;
+            font-style: italic;
+        }
+
+        .artist-card a:hover {
+            color: #ff7461;  /* Light grey on hover */
+        }
+
+        .release_year-card {
+            font-size: 1em;  /* Increased size */
+            color: #c2c2c2;  /* Greyish */
+            font-weight: 600;  /* Bolder */
+            font-style: italic;
+        }
+
+        .new_album-container {
+            text-align: center;
+            margin-top: 40px;  /* Increased spacing */
+            margin-bottom: 10px;
+        }
+
+        .add_album {
+            font-size: 1.2em;  /* Increased size */
+            display: inline-block;
+            background-color: #27ae60;  /* Fresh green */
+            color: #ffffff;
+            padding: 14px 28px;  /* Larger padding */
+            border-radius: 8px;  /* Rounded edges */
+            text-decoration: none;
+            font-weight: 800;  /* Bolder */
+            transition: background-color 0.3s;
+        }
+
+        .add_album:hover {
+            background-color: #219150;  /* Darker green on hover */
+        }
+
+        .top-left-buttons {
+            position: absolute; 
+            top: 10px; 
+            left: 10px;
+            z-index: 10; 
+        }
+
+        .button {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.2);  /* Darker card background */
+            font-family:'Roboto', sans-serif;
+            color: #f1f1f1;
+            border: none;
+            padding: 10px 15px;
+            margin-right: 5px; 
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0.2);  /* Darker card background */
+        }
+    </style>
+</head>
+<body>
+    <div class="top-left-buttons">
+        <a href="/" class="button">Homepage</a>
+        <a href="/artists" class="button">All Artists</a>
+        <a href="#" class="button">All Albums</a>
+    </div>
+    <h1>All Albums</h1>
+    {% for album in albums %}
+        <div class="album-container">
+            <p class="album-card"><a href="albums/{{album.id}}?from=0">{{album.title}}</a></p>
+            <p class="artist-card"><a href="artists/{{album.artist_id}}">{{artists[album.artist_id]}}</a></p>
+            <p class="release_year-card">{{album.release_year}}</p>
+        </div>
+    {% endfor %}
+    <div class="new_album-container">
+        <a class="add_album" href="/albums/new">Add New Album</a>
+    </div>
+</body>
+</html>

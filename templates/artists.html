@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Library - Artists</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: radial-gradient(circle at top left, #1a1a2e, #2c3e50, #4b0082, #8b0000);
+            margin: 0;
+            padding: 0 10%;
+            color: #fff;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;  /* Solid and simple font for the header */
+            font-size: 2.5em;
+            color: #ecf0f1;  /* A slightly off-white color for contrast against the pure white */
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 20px;
+        }
+
+        .artist-container {
+            background-color: rgba(255, 255, 255, 0.1);  /* Semi-transparent white cards to keep the deep and dark vibe */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* A darker shadow for depth */
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+
+        .artist-card a,
+        .genre-card {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .artist-card a {
+            font-weight: 700;
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .artist-card a:hover {
+            color: #23c7c2;  /* Maintaining the red color for hover for emphasis */
+        }
+
+        .genre-card {
+            color: #bdc3c7;  /* A muted off-white color for the genre */
+            font-style: italic;
+        }
+
+        .new_artist-container {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .add_artist {
+            font-size: 1.2em;
+            display: inline-block;
+            background-color: #e74c3c;
+            color: #ffffff;
+            padding: 14px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: background-color 0.3s;
+        }
+
+        .add_artist:hover {
+            background-color: #c0392b;
+        }
+
+        .top-left-buttons {
+            position: absolute; 
+            top: 10px; 
+            left: 10px;
+            z-index: 10; 
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1c4141;
+            font-family:'Roboto', sans-serif;
+            color: #f1f1f1;
+            border: none;
+            padding: 10px 15px;
+            margin-right: 5px; 
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #006064;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-left-buttons">
+        <a href="/" class="button">Homepage</a>
+        <a href="#" class="button">All Artists</a>
+        <a href="/albums" class="button">All Albums</a>
+    </div>
+    <h1>All Artists</h1>
+    {% for artist in artists %}
+        <div class="artist-container">
+            <p class="artist-card"><a href="artists/{{artist.id}}">{{artist.name}}</a></p>
+            <p class="genre-card">{{artist.genre}}</p>
+        </div>
+    {% endfor %}
+    <div class="new_artist-container">
+        <a class="add_artist" href="/artists/new">Add New Artist</a>
+    </div>
+</body>
+</html>
