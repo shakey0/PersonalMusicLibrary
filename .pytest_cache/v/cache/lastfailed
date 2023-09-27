@@ -1,1 +1,19 @@
-{}
+{
+  "tests/test_app.py::test_get_artists[chromium]": true,
+  "tests/test_app.py::test_get_albums[chromium]": true,
+  "tests/test_app.py::test_get_single_artist[chromium]": true,
+  "tests/test_app.py::test_get_single_album[chromium]": true,
+  "tests/test_app.py::test_get_artist_new_create_artist_successful_finish[chromium]": true,
+  "tests/test_app.py::test_get_artist_new_create_artist_error_name[chromium]": true,
+  "tests/test_app.py::test_get_artist_new_create_artist_error_name_genre[chromium]": true,
+  "tests/test_app.py::test_delete_artist_yes[chromium]": true,
+  "tests/test_app.py::test_delete_artist_no[chromium]": true,
+  "tests/test_app.py::test_get_album_new_create_album_successful_finish[chromium]": true,
+  "tests/test_app.py::test_get_album_new_create_album_error_artist[chromium]": true,
+  "tests/test_app.py::test_get_album_new_create_album_error_title_release_year_artist[chromium]": true,
+  "tests/test_app.py::test_get_album_new_successful_finish_from_artist_page[chromium]": true,
+  "tests/test_app.py::test_get_album_new_error_title_release_year_artist[chromium]": true,
+  "tests/test_app.py::test_delete_album_yes_from_single_artist_page[chromium]": true,
+  "tests/test_app.py::test_delete_album_yes_from_albums_page[chromium]": true,
+  "tests/test_app.py::test_delete_album_no[chromium]": true
+}

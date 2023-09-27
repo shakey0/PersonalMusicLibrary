@@ -7,6 +7,7 @@ from lib.artist_repository import *
 from lib.artist import *
 
 app = Flask(__name__)
+app.jinja_env.autoescape = True
 
 @app.route("/")
 def home():
@@ -134,4 +135,8 @@ def delete_album():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=int(os.environ.get('PORT', 5000)))
+    app.run(
+        debug=True,
+        host="0.0.0.0", # Listen for connections _to_ any server
+        port=int(os.environ.get('PORT', 5000))
+    )

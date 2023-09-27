@@ -2,211 +2,246 @@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4116
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4231
+ * Running on http://192.168.1.233:4231
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:48:58] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:18:56] "GET /artists HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4495
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4863
+ * Running on http://192.168.1.233:4863
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:48:58] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:02] "GET /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4818
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4615
+ * Running on http://192.168.1.233:4615
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:48:59] "GET /artists/3 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:08] "GET /artists/3 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4721
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4897
+ * Running on http://192.168.1.233:4897
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:00] "GET /albums/9 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:14] "GET /albums/9 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4567
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4019
+ * Running on http://192.168.1.233:4019
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:00] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:00] "GET /artists/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:00] "[32mPOST /artists HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:00] "GET /artists/5 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:19] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:20] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:20] "[32mPOST /artists HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:19:20] "GET /artists/5 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4795
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4058
+ * Running on http://192.168.1.233:4058
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:01] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:01] "GET /artists/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:01] "POST /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:25] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:25] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:25] "POST /artists HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4267
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4627
+ * Running on http://192.168.1.233:4627
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:02] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:02] "GET /artists/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:02] "POST /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:31] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:31] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:31] "POST /artists HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4683
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4988
+ * Running on http://192.168.1.233:4988
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /artists/2 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /artists/2?delete=1 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:03] "[32mPOST /delete_artist HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "GET /artists/2 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "GET /artists/2?delete=1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "[32mPOST /delete_artist HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:37] "GET /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4650
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4769
+ * Running on http://192.168.1.233:4769
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:03] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:04] "GET /artists/3 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:04] "GET /artists/3?delete=1 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:04] "[32mPOST /delete_artist HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:04] "GET /artists/3 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:43] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:43] "GET /artists/3 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:43] "GET /artists/3?delete=1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:43] "[32mPOST /delete_artist HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:19:43] "GET /artists/3 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4339
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4213
+ * Running on http://192.168.1.233:4213
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:04] "GET /albums HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:05] "GET /albums/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:05] "[32mPOST /albums HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:05] "GET /albums/13 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:49] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:49] "GET /albums/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:49] "[32mPOST /albums HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:19:49] "GET /albums/13 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4869
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4329
+ * Running on http://192.168.1.233:4329
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:05] "GET /albums HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:05] "GET /albums/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:06] "POST /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:55] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:55] "GET /albums/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:19:55] "POST /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4035
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4425
+ * Running on http://192.168.1.233:4425
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:06] "GET /albums HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:06] "GET /albums/new HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:06] "POST /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:01] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:01] "GET /albums/new HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:01] "POST /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4682
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4750
+ * Running on http://192.168.1.233:4750
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:07] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:07] "GET /artists/4 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:07] "GET /albums/new?given_artist=Nina%20Simone HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:07] "[32mPOST /albums HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:07] "GET /albums/13 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:07] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:07] "GET /artists/4 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:07] "GET /albums/new?given_artist=Nina%20Simone HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:07] "[32mPOST /albums HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:20:07] "GET /albums/13 HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4053
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4940
+ * Running on http://192.168.1.233:4940
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:08] "GET /albums HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:08] "GET /artists/1 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:08] "GET /albums/new?given_artist=Pixies HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:08] "POST /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:13] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:13] "GET /artists/1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:13] "GET /albums/new?given_artist=Pixies HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:13] "POST /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4485
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4833
+ * Running on http://192.168.1.233:4833
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /artists HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /artists/2 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /albums/4?from=2 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /albums/4?delete=1&from=2 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /artists/2 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:09] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /artists/2 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /albums/4?from=2 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /albums/4?delete=1&from=2 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /artists/2 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:19] "GET /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4947
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4089
+ * Running on http://192.168.1.233:4089
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
-127.0.0.1 - - [28/Aug/2023 18:49:10] "GET /albums HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:10] "GET /albums/4?from=0 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:10] "GET /albums/4?delete=1&from=0 HTTP/1.1" 200 -
-127.0.0.1 - - [28/Aug/2023 18:49:10] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
-127.0.0.1 - - [28/Aug/2023 18:49:10] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:25] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:25] "GET /albums/4?from=0 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:25] "GET /albums/4?delete=1&from=0 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:25] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:20:25] "GET /albums HTTP/1.1" 200 -
 @@__xproc_block_delimiter__@@
  * Serving Flask app 'app'
  * Debug mode: on
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:4003
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4862
+ * Running on http://192.168.1.233:4862
 [33mPress CTRL+C to quit[0m
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 105-591-242
+<<<<<<< Updated upstream
 127.0.0.1 - - [28/Aug/2023 18:49:11] "GET /artists HTTP/1.1" 200 -
 127.0.0.1 - - [28/Aug/2023 18:49:11] "GET /artists/1 HTTP/1.1" 200 -
 127.0.0.1 - - [28/Aug/2023 18:49:11] "GET /albums/1?from=1 HTTP/1.1" 200 -
@@ -643,3 +678,11 @@
 127.0.0.1 - - [27/Sep/2023 17:17:04] "GET /albums/1?delete=1&from=1 HTTP/1.1" 200 -
 127.0.0.1 - - [27/Sep/2023 17:17:04] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
 127.0.0.1 - - [27/Sep/2023 17:17:04] "GET /albums/1?from=1 HTTP/1.1" 200 -
+=======
+127.0.0.1 - - [27/Sep/2023 17:20:31] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:31] "GET /artists/1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:31] "GET /albums/1?from=1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:31] "GET /albums/1?delete=1&from=1 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Sep/2023 17:20:31] "[32mPOST /delete_album HTTP/1.1[0m" 302 -
+127.0.0.1 - - [27/Sep/2023 17:20:31] "GET /albums/1?from=1 HTTP/1.1" 200 -
+>>>>>>> Stashed changes
