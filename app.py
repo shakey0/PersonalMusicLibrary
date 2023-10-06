@@ -7,7 +7,7 @@ from lib.artist_repository import *
 from lib.artist import *
 
 app = Flask(__name__)
-app.jinja_env.autoescape = True
+app.jinja_env.autoescape = True  # Stops people hacking
 
 @app.route("/")
 def home():
