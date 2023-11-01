@@ -1,9 +1,5 @@
 # This is an example of how to use the DatabaseConnection class
 
-"""
-When I seed the database
-I get some records back
-"""
 def test_database_connection(db_connection):
     # Seed the database with some test data
     db_connection.seed("seeds/database_connection.sql")

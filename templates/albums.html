@@ -11,26 +11,26 @@
             background: linear-gradient(to right, #5c1c4e, #006064); /* Deep purple to dark turquoise */
             margin: 0;
             padding: 0 10%;
-            color: #f1f1f1;  /* General text color */
+            color: #f1f1f1;
         }
 
         h1 {
             font-family: 'Montserrat', sans-serif;
-            font-size: 2.5em;  /* Increased size */
+            font-size: 2.5em;
             color: #e0e0e0;  
             text-align: center;
             margin-top: 20px;
             margin-bottom: 40px;
-            border-bottom: 3px solid #e0e0e0;  /* Increased border thickness */
+            border-bottom: 3px solid #e0e0e0;
             padding-bottom: 20px;
         }
 
         .album-container {
-            background-color: rgba(0, 0, 0, 0.2);  /* Darker card background */
-            border-radius: 15px;  /* Rounded edges */
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  /* Enhanced shadow */
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
             margin-bottom: 30px;
-            padding: 25px;  /* Increased padding */
+            padding: 25px;
             padding-top: 10px;
             padding-bottom: 10px;
         }
@@ -39,61 +39,61 @@
         .artist-card a,
         .release_year-card {
             display: block;
-            margin-bottom: 12px;  /* Increased margin */
+            margin-bottom: 12px;
         }
 
         .album-card a {
-            font-size: 1.4em;  /* Increased size */
-            font-weight: 800;  /* Bolder */
-            color: #ffb845;  /* Orange-ish */
+            font-size: 1.4em;
+            font-weight: 800;
+            color: #ffb845;
             text-decoration: none;
             transition: color 0.3s;
         }
 
         .album-card a:hover {
-            color: #edff29;  /* Gold on hover */
+            color: #edff29;
         }
 
         .artist-card a {
-            font-size: 1.2em;  /* Increased size */
+            font-size: 1.2em;
             font-weight: 700;  
-            color: #ffffff;  /* Greyish color */
+            color: #ffffff;
             text-decoration: none;
             transition: color 0.3s;
             font-style: italic;
         }
 
         .artist-card a:hover {
-            color: #ff7461;  /* Light grey on hover */
+            color: #ff7461;
         }
 
         .release_year-card {
-            font-size: 1em;  /* Increased size */
-            color: #c2c2c2;  /* Greyish */
-            font-weight: 600;  /* Bolder */
+            font-size: 1em;
+            color: #c2c2c2;
+            font-weight: 600;
             font-style: italic;
         }
 
         .new_album-container {
             text-align: center;
-            margin-top: 40px;  /* Increased spacing */
+            margin-top: 40px;
             margin-bottom: 10px;
         }
 
         .add_album {
-            font-size: 1.2em;  /* Increased size */
+            font-size: 1.2em;
             display: inline-block;
-            background-color: #27ae60;  /* Fresh green */
+            background-color: #27ae60;
             color: #ffffff;
-            padding: 14px 28px;  /* Larger padding */
-            border-radius: 8px;  /* Rounded edges */
+            padding: 14px 28px;
+            border-radius: 8px;
             text-decoration: none;
-            font-weight: 800;  /* Bolder */
+            font-weight: 800;
             transition: background-color 0.3s;
         }
 
         .add_album:hover {
-            background-color: #219150;  /* Darker green on hover */
+            background-color: #219150;
         }
 
         .top-left-buttons {
@@ -103,9 +103,15 @@
             z-index: 10; 
         }
 
+        @media (max-width: 1060px) {
+            h1 {
+                margin-top: 60px;
+            }
+        }
+
         .button {
             display: inline-block;
-            background-color: rgba(0, 0, 0, 0.2);  /* Darker card background */
+            background-color: rgba(0, 0, 0, 0.2);
             font-family:'Roboto', sans-serif;
             color: #f1f1f1;
             border: none;
@@ -117,7 +123,7 @@
         }
 
         .button:hover {
-            background-color: rgba(255, 255, 255, 0.2);  /* Darker card background */
+            background-color: rgba(255, 255, 255, 0.2);
         }
     </style>
 </head>

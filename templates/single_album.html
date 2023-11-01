@@ -7,7 +7,7 @@
     <style type="text/css">
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(to right, #2c003e, #006380); /* Slight change in gradient colors for a fresh look */
+            background: linear-gradient(to right, #2c003e, #006380);
             margin: 0;
             padding: 0 10%;
             color: #f1f1f1;
@@ -47,15 +47,21 @@
             padding-bottom: 20px;
         }
 
+        @media (max-width: 1060px) {
+            h1.t-title {
+                margin-top: 60px;
+            }
+        }
+
         .t-release-year, .t-artist {
             font-size: 1.4em;
             margin-bottom: 15px;
             padding-left: 15px;
-            border-left: 4px solid #f1c40f;  /* Golden accent for these details */
+            border-left: 4px solid #f1c40f;
         }
 
         .release_year-word {
-            color: #f1c40f;  /* Gold color for the year to make it stand out */
+            color: #f1c40f;
         }
 
         .artist-word {
@@ -78,13 +84,13 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
-            background-color: #dc3545; /* red */
-            color: #f1f1f1; /* white text for visibility */
+            background-color: #dc3545;
+            color: #f1f1f1;
         }
 
         .delete-button:hover {
-            background-color: #c82333; /* darker red on hover */
-            color: #ffffff; /* slightly brighter text */
+            background-color: #c82333;
+            color: #ffffff;
         }
 
         .bottom-buttons {
@@ -98,34 +104,31 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
-            padding: 20px; /* Add some padding inside the div */
+            padding: 20px;
             padding-top: 6px;
-            background-color: rgba(14, 11, 36, 0.8); /* White background with 80% opacity */
-            border-radius: 10px; /* Rounded corners for the div */
-            display: inline-block; /* Make the div stretch only as far as the content */
+            background-color: rgba(14, 11, 36, 0.8);
+            border-radius: 10px;
+            display: inline-block;
         }
 
-        /* Style the title and reminder text */
         .delete-title {
             font-size: 18px;
             margin-bottom: 18px;
         }
 
-        /* Style the buttons */
         .Yes, .No {
             display: inline-block;
             width: 20%;
             margin-right: 80px;
             padding: 8px 20px;
             border: none;
-            border-radius: 5px; /* Rounded corners for the buttons */
+            border-radius: 5px;
             color: white;
             font-size: 1.1em;
             cursor: pointer;
             transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Red for the Yes button */
         .Yes {
             background-color: #f00;
         }
@@ -134,7 +137,6 @@
             background-color: rgb(159, 0, 0);
         }
 
-        /* Blue for the No button */
         .No {
             background-color: #007bff;
         }
@@ -143,7 +145,6 @@
             background-color: #0054ae;
         }
 
-        /* Remove the margin from the last button */
         .No {
             margin-right: 0;
         }

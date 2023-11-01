@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import expect
 
 def test_get_artists(page, test_web_address, db_connection):
     db_connection.seed("seeds/music_library.sql")

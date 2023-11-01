@@ -1,0 +1,5 @@
+**/__pycache__/
+**/.pytest_cache/
+.DS_Store
+lib/__pycache__/
+tests/__pycache__/

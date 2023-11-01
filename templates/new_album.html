@@ -7,7 +7,7 @@
     <style type="text/css">
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(to right, #1a237e, #1565c0); /* Slightly different shade of gradient for uniqueness */
+            background: linear-gradient(to right, #1a237e, #1565c0);
             margin: 0;
             padding: 0 20%;
             color: #f1f1f1; 
@@ -16,7 +16,7 @@
         h1 {
             font-family: 'Montserrat', sans-serif;
             font-size: 3em;
-            color: #c5cae9; /* Light purple color for uniqueness */
+            color: #c5cae9;
             text-align: center;
             margin-top: 20px;
             margin-bottom: 40px;
@@ -28,14 +28,14 @@
             color: rgb(255, 234, 167);
             background-color: rgba(255, 0, 0, 0.7);
             border-radius: 8px;
-            padding: 1px 10px; /* Simplified padding */
+            padding: 1px 10px;
             margin-bottom: 20px;
             width: 280px;
-            max-width: 100%; /* Ensure it fits smaller screens */
+            max-width: 100%;
             text-align: center;
             margin-left: auto;
             margin-right: auto;
-            font-size: 1.2em; /* Increased font size */
+            font-size: 1.2em;
         }
 
         .title-card, .select-box, .select-date, .fixed_artist {
@@ -47,7 +47,7 @@
             border: 1px solid #c5cae9;
             background-color: rgba(255, 255, 255, 0.1);
             color: #f1f1f1;
-            font-size: 1.1em; /* Increased font size */
+            font-size: 1.1em;
         }
 
         .title-card, .fixed_artist {
@@ -62,7 +62,7 @@
             -webkit-appearance: none;
             -moz-appearance: none;
             padding-right: 30px;
-            font-size: 1.1em; /* Increased font size */
+            font-size: 1.1em;
         }
 
         input[type="submit"] {
@@ -74,7 +74,7 @@
             font-size: 1em;
             cursor: pointer;
             transition: background-color 0.3s;
-            font-size: 1.1em; /* Increased font size */
+            font-size: 1.1em;
         }
 
         input[type="submit"]:hover {
@@ -86,6 +86,12 @@
             top: 10px;
             left: 10px;
             z-index: 10;
+        }
+
+        @media (max-width: 1180px) {
+            h1 {
+                margin-top: 60px;
+            }
         }
 
         .button {
