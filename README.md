@@ -1,8 +1,12 @@
-# Chitter Project
+# Personal Music Library
 
 ## Introduction
-This is a project I undertook at the beginning of week 6 of the Makers Academy bootcamp. This is my first web app and first time to use Flask. This is a very simple project and was a great introduction to Flask and also CSS (the CSS isn't very well organised here - if I had time I would tidy it up).
-This is a site where a user can simply keep a record of artists and albums. The artsts-albums relation is a one-to-many. If I had more time, I would add a method to find all the songs on an album from another website, and I would also add user accounts and login features.
+In week 6 of the Makers Academy bootcamp, I dived into web development, crafting my first-ever web app using Flask. This simple platform lets users record and track their favorite artists and albums, underlining the one-to-many relationship between artists and their albums.
+
+Though my initial foray into CSS needs some polishing, the app's simplicity showcases my foundational skills from the beginning of my learning journey.
+If I had more time I would:
+- Implement a feature that fetches the songs for any given album from an external source.
+- Incorporate user account management, allowing for personalized record-keeping and secure logins.
 
 ## Features
 
