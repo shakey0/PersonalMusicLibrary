@@ -25,7 +25,7 @@ class DatabaseConnection:
         db_host = os.environ.get('DB_HOST', 'localhost')
         try:
             self.connection = psycopg.connect(
-                dbname=self.DEV_DATABASE_NAME,
+                f"postgresql://localhost/{self._database_name()}",
                 user=db_user,
                 password=db_pass,
                 host=db_host,
@@ -34,7 +34,7 @@ class DatabaseConnection:
         except psycopg.OperationalError:
             try:
                 self.connection = psycopg.connect(
-                    dbname=self.DEV_DATABASE_NAME,
+                    f"postgresql://localhost/{self._database_name()}",
                     row_factory=dict_row
                 )
             except psycopg.OperationalError:
