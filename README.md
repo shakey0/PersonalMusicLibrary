@@ -23,9 +23,8 @@ If I had more time I would:
 
 ## Database Tables
 
-- ***artists*** (id, name, genre)
-- one-to-many with albums through artist_id
-- ***albums*** (id, title, release_year, artist_id [FK - artists.id]) - FK connects album to artist
+- **artists** (id, name, genre) - <em>one-to-many with albums through artist_id</em>
+- **albums** (id, title, release_year, artist_id [FK - artists.id]) - FK connects album to artist
 
 ## Installation & Setup
 
