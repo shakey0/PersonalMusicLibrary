@@ -19,6 +19,7 @@ If I had more time I would:
 ## Key Technologies
 
 - **Backend:** Python, Flask, PostgreSQL
+- **Frontend:** CSS, HTML
 - **Testing:** Playwright
 
 ## Database Tables
